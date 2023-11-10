@@ -16,7 +16,7 @@ class AccountRepository(AbstractAccountRepository):
             'account_number': account.account_number,
             'balance': account.balance
         }
-        return self.accounts
+        return account
 
     def find_account_by_id(self, account_id):
         # Retrieve account data from the in-memory dictionary based on account_id
