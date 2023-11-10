@@ -16,9 +16,9 @@ python3 main.py
 The application is organized as follows:
 ```
 src/
-├── application/{modules}                  # Contains Abstracted classes of the repositories and can be extended
+├── application/{modules}             # Contains Abstracted classes of the repositories and can be extended
 ├── domain/{modules}                  # Contains business entities and domain logic.
 ├── infrastructure/{modules}          # Data persistence and infrastructure services.
-├── use_case/{modules}               # Application use cases encapsulating business rules.
-└── main.py                  # Entry point for the application flow.
+├── use_case/                         # Application use cases encapsulating business rules.
+└── main.py                           # Entry point for the application flow.
 ```
